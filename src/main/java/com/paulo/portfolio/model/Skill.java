@@ -1,5 +1,7 @@
 package com.paulo.portfolio.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -13,6 +15,7 @@ public class Skill {
 
     @ManyToOne
     @JoinColumn(name = "category_id")
+    @JsonBackReference
     private SkillCategory category;
 
     private String name;
