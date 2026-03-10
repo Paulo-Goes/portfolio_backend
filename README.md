@@ -9,6 +9,7 @@
   - There would be a page showing the top 10 highscores.
 - The backend will host various things including:
   - My skills (filtered by a specific category/area)
+  - There shall be a feature that exports a CV (curriculum) to the .pdf format, based on the selected category.
   - Saving contact information (a message sent to me via the frontend, email, phone number...)
   - Name and highscore on simple games hosted in the frontend.
 
