@@ -1,0 +1,11 @@
+spring.application.name=portfolio
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/portfolio_db
+spring.datasource.username=username
+spring.datasource.password=password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+admin.username=username
+admin.password=password
