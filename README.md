@@ -2,7 +2,7 @@
 
 ## The idea
 Make a fullstack portfolio website where:
-- There is a --as simple as possible-- and functional frontend(TBD)
+- There is a functional and somewhat pretty frontend(TBD)
   - HTML/CSS
   - JavaScript
 - There is a backend(this)
