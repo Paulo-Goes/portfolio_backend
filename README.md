@@ -1,24 +1,40 @@
 # This is the backend portion of a portfolio website I'm making for myself.
 
-## The idea:
+## The idea
+Make a fullstack portfolio website where:
+- There is a --as simple as possible-- and functional frontend(TBD)
+  - HTML/CSS
+  - JavaScript
+- There is a backend(this)
+  - Java Spring Boot
+  - PostgreSQL
+- The website will host various things
+  - My Skills filtered by the relevant industry area(DevOps, Software Development, etc...)
+  - Contact me
+  - Current & past projects
+  - Add a few simple games with a leaderboard to show the top 10 scores
 
-- A user will be able to access the frontend which will fetch data from this backend.
-- There will be a "contact me" page which will save any messages on the backend.
+## Implemented Features
+- Skills filtered by the area category
+  - DevOps
+  - Software Development
+  - Etc...
+- Contact me
   - Name
-  - Contact information (email)
+  - Email
   - Message
-- Future plans would consist on adding other miscellaneous features, such as simple games where the user would save their name and score.
-  - There would be at least a couple of games.
-  - There would be a page showing the top 10 highscores.
-- The backend will host various things including:
-  - My skills (filtered by a specific category/area)
-  - There shall be a feature that exports a CV (curriculum) to the .pdf format, based on the selected category.
-  - Saving contact information (a message sent to me via the frontend, email, etc...)
-  - Name and highscore on simple games hosted in the frontend.
+- REST API
+- Security(Access control)
 
-## Technologies used for **THIS** part of the project:
+## Planned features
+- Add projects
+- Add games
 
-- Java (Springboot)
-- PostgreSQL
+## Much later/Non confirmed features
+- Add a export CV functionality
+  - User would receive a .pdf CV taking into consideration the specified skill area
+- Animations
+- My status(Open to work, working, etc...)
+- Quote of the day
 
-## This repository shall be hosted on render.com upon enough features are implemented to support the development of the frontend.
+# This repository shall be made public and hosted on render.com upon enough features are implemented to support the development of the frontend.
