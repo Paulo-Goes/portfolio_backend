@@ -35,3 +35,4 @@ build/
 ### Other things ###
 *.zip
 application.properties
+.config/
