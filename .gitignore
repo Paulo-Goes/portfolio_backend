@@ -35,4 +35,3 @@ build/
 ### Other things ###
 *.zip
 application.properties
-src/main/java/com/paulo/portfolio/config/
