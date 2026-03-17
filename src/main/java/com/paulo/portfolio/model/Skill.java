@@ -19,5 +19,5 @@ public class Skill {
     private SkillCategory category;
 
     private String name;
-    private String level;
+    private Byte level;
 }
