@@ -1,8 +1,10 @@
 # This is the backend portion of a portfolio website I'm making for myself.
 
 ## The idea
+
 Make a fullstack portfolio website where:
-- There is a functional and somewhat pretty frontend(TBD)
+
+- There is a functional and somewhat pretty frontend(https://github.com/Paulo-Goes/portfolio-frontend)
   - HTML/CSS
   - JavaScript
 - There is a backend(this)
@@ -15,6 +17,7 @@ Make a fullstack portfolio website where:
   - Add a few simple games with a leaderboard to show the top 10 scores
 
 ## Implemented Features
+
 - Skills filtered by the area category
   - DevOps
   - Software Development
@@ -27,10 +30,12 @@ Make a fullstack portfolio website where:
 - Security(Access control)
 
 ## Planned features
+
 - Add projects
 - Add games
 
 ## Much later/Non confirmed features
+
 - Add a export CV functionality
   - User would receive a .pdf CV taking into consideration the specified skill area
 - Animations
