@@ -36,5 +36,3 @@ Make a fullstack portfolio website where:
 - Animations
 - My status(Open to work, working, etc...)
 - Quote of the day
-
-# This repository shall be made public and hosted on render.com upon enough features are implemented to support the development of the frontend.
