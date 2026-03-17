@@ -9,3 +9,5 @@ spring.jpa.show-sql=true
 
 admin.username=username
 admin.password=password
+
+cors.allowed.origins=url

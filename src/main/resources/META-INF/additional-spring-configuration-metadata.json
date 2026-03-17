@@ -9,6 +9,11 @@
       "name": "admin.password",
       "type": "java.lang.String",
       "description": "Admin password for authentication"
+    },
+    {
+      "name": "cors.allowed.origins",
+      "type": "java.lang.String",
+      "description": "Comma-separated list of allowed origins for CORS"
     }
   ]
 }
