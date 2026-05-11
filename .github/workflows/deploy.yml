@@ -19,4 +19,5 @@ jobs:
             cd /home/ubuntu/portfolio_backend
             git pull
             ./mvnw clean package -DskipTests
+            cp target/*.jar /home/ubuntu/app.jar
             sudo systemctl restart portfolioapi
