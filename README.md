@@ -31,13 +31,9 @@ Make a fullstack portfolio website where:
 
 ## Planned features
 
-- Add projects
-- Add games
+- Add game score submission
 
 ## Much later/Non confirmed features
 
 - Add a export CV functionality
   - User would receive a .pdf CV taking into consideration the specified skill area
-- Animations
-- My status(Open to work, working, etc...)
-- Quote of the day
