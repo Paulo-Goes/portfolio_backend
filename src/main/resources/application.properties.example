@@ -7,6 +7,11 @@ spring.datasource.password=password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
+spring.datasource.hikari.minimum-idle=0
+spring.datasource.hikari.idle-timeout=0
+spring.datasource.hikari.connection-timeout=0
+spring.datasource.hikari.max-lifetime=0
+
 admin.username=username
 admin.password=password
 
