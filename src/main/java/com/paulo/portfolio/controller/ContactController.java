@@ -2,8 +2,6 @@ package com.paulo.portfolio.controller;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.paulo.portfolio.model.ContactMessage;
 import com.paulo.portfolio.repository.ContactMessageRepository;
 
@@ -12,8 +10,11 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/contact")
 public class ContactController {
-    @Autowired
-    private ContactMessageRepository contactMessageRepository;
+    private final ContactMessageRepository contactMessageRepository;
+
+    ContactController(ContactMessageRepository contactMessageRepository) {
+        this.contactMessageRepository = contactMessageRepository;
+    }
 
     //CREATE
 

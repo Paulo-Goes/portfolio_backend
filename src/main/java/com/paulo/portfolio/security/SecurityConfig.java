@@ -1,6 +1,5 @@
 package com.paulo.portfolio.security;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,14 +20,17 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
-    @Autowired
-    private JwtFilter jwtFilter;
+    private final JwtFilter jwtFilter;
     
     @Value("${admin.username}")
     private String adminUsername;
 
     @Value("${admin.password}")
     private String adminPassword;
+
+    SecurityConfig(JwtFilter jwtFilter) {
+        this.jwtFilter = jwtFilter;
+    }
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {

@@ -2,7 +2,6 @@ package com.paulo.portfolio.controller;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,11 +19,14 @@ import com.paulo.portfolio.repository.SkillRepository;
 @RestController
 @RequestMapping("/api/skills")
 public class SkillController {
-    @Autowired
-    private SkillRepository skillRepository;
+    private final SkillRepository skillRepository;
 
-    @Autowired
-    private SkillCategoryRepository skillCategoryRepository;
+    private final SkillCategoryRepository skillCategoryRepository;
+
+    SkillController(SkillRepository skillRepository, SkillCategoryRepository skillCategoryRepository) {
+        this.skillRepository = skillRepository;
+        this.skillCategoryRepository = skillCategoryRepository;
+    }
 
     //CREATE
     
